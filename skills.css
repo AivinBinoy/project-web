@@ -1,0 +1,101 @@
+/* Skills Section */
+.skills-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.skills-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+    color: #0e0000;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.skill {
+    width: 45%;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.skill p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.progress {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 10px;
+    background-color: #9b59b6;
+}
+
+.skill span {
+    float: right;
+    font-size: 1rem;
+    color: #666;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #0a0606;
+}
+
+.hero-section {
+    background: url('IMGT.jpeg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Darken the background image */
+}
+
+.hero-text {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    color: #0d0c0c;
+    line-height: 1.2;
+}
+
+.hero-text h1 span {
+    color: #ff00ff; /* Highlight color */
+}
+
+.hero-text p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: #080000;
+}

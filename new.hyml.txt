@@ -1,0 +1,27 @@
+<DOCTYPE!>
+<html lang="en">
+<head>DOCTYPE
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">folio.</div>
+            <ul class="navItems">
+                <li><a href="£">HOME</a></li>
+                <li><a href="£">about</a></li>
+                <li><a href="£">skills</a></li>
+                <li><a href="£">about</a></li>
+            </ul>
+            <div class="links">
+                <a href="£" <i class="fab fa-linkedin"></i></a>
+                <a href="£" <i class="fab fa-instagram"></i></a>
+                <a href="£" <i class="fab fa-twitter"></i></a>
+   
+        </div>
+    </nav>
+</body>
+</html>
